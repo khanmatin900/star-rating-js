@@ -50,3 +50,10 @@ body {
 .five {
   color: rgb(24, 159, 14);
 }
+
+button {
+  margin-top: 15px;
+  width: 15%;
+  background-color: olivedrab;
+  color: #fff;
+}
