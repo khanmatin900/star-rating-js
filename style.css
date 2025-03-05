@@ -54,9 +54,10 @@ body {
 button {
   margin-top: 15px;
   width: 18%;
-  height: 20px;
+  padding: 6px;
   background-color: olivedrab;
   color: #fff;
   border: none;
   border-radius: 5px;
+  font-weight: bold;
 }
