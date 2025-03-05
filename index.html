@@ -13,7 +13,7 @@
 
 <body>
   <div class="card">
-    <form action="success.html">
+    <form id="reset">
       <h1>JavaScript Star Rating</h1>
       <br />
 
@@ -32,9 +32,16 @@
       </h3>
 
       <button type="submit"> Submit </button>
+      <button type="reset" onclick="myFunction()"> Reset </button>
     </form>
   </div>
   <script src="script.js"></script>
+  <script>
+    function myFunction() {
+      document.getElementById("reset").reset()
+    }
+  </script>
 </body>
+
 
 </html>
