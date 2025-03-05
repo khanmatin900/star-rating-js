@@ -23,3 +23,15 @@ body {
   width: 100%;
   border-radius: 0.5rem;
 }
+
+.card a {
+  text-decoration: none;
+}
+.card a:hover {
+  color: rgb(255, 163, 14);
+  text-decoration: underline;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
